@@ -88,6 +88,9 @@
     .prev-link strong {
         justify-content: end;
     }
+    .text-block ol li br {
+        display: none;
+    }
 
 
 
