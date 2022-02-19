@@ -389,7 +389,10 @@ button
 
 header {
     padding-top: 102px;
-    margin-bottom: 45px;
+    margin-bottom: 38px;
+}
+.header_logo {
+    margin-left: 47px;
 }
 .header_logo a {
     display: inline-block;
@@ -420,7 +423,7 @@ header {
 
 
 .first-section .cont {
-    max-width: 1174px;
+    max-width: 1234px;
 }
 .first-section_img img {
     width: 100%;
@@ -429,22 +432,22 @@ header {
     font-weight: 600;
     font-size: 85px;
     line-height: 90.7%;
-    color: #4A5CFF;    
+    color: #4A5CFF;
     max-width: 650px;
     width: 100%;
-    margin-top: -280px;
-    margin-left: 300px;
+    margin-top: -289px;
+    margin-left: 304px;
+    letter-spacing: 2.2px;
 }
 .first-section_text {
     font-weight: 600;
     font-size: 22px;
     line-height: 126.68%;
     color: var(--text_color);
-    margin-top: 190px;
     padding-right: 70px;
-    padding-left: 70px;
-    margin: 190px auto 0;
-    letter-spacing: 0.3px;
+    padding-left: 98px;
+    margin: 206px auto 0;
+    letter-spacing: 0.29px;
 }
 .text-block h2 {
     font-weight: 600;
