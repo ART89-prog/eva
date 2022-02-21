@@ -163,7 +163,7 @@ input[type=number]
     --bg: linear-gradient(180deg, #FFABAB 0%, rgba(255, 172, 172, 0.1) 96.01%);
     --scroll_width: 17px;
     --text_color: #333;
-    --font_size: 18px;
+    --font_size: 22px;
     --font_size_title: 36px;
     --font-family: 'Futura';
 }
@@ -172,13 +172,13 @@ input[type=number]
 ::selection
 {
     color: #fff;
-    background: #de041d;
+    background: #EB5E48;
 }
 
 ::-moz-selection
 {
     color: #fff;
-    background: #de041d;
+    background: #EB5E48;
 }
 
 
@@ -344,6 +344,7 @@ button
     justify-content: end;
     align-items: center;
     align-content: center;
+    color: #333;
 }
 .tabs button:nth-child(2) {
     justify-content: start;
@@ -364,10 +365,6 @@ button
     color: #FFFFFF;
     background: #1CCC6E;
 }
-.tabs button.active {
-    color: #FFFFFF;
-    background: #1CCC6E;
-}
 .tab_content {
     position: relative;
     visibility: hidden;
@@ -380,7 +377,7 @@ button
     visibility: visible;
     overflow: visible;
     height: auto;
-    transition: opacity .5s linear;
+    transition: opacity .8s linear;
     pointer-events: auto;
     opacity: 1;
 }
@@ -389,7 +386,7 @@ button
 
 header {
     padding-top: 102px;
-    margin-bottom: 38px;
+    margin-bottom: 65px;
 }
 .header_logo {
     margin-left: 47px;
@@ -403,21 +400,21 @@ header {
     background-size: 100%;
     width: 211px;
     height: 50px;
-    margin-right: 17px;
+    margin-right: 35px;
 }
 .slogan {
     display: inline-block;
     vertical-align: top;
-    font: normal 30px/50px 'Open Sans';
+    font: normal 25px/44px 'Open Sans';
     background: url(../images/logo.svg) no-repeat;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
     width: 278px;
-    height: 60px;
+    height: 49px;
     color: #fff;
-    padding-left: 33px;
+    padding-left: 41px;
 }
 
 
@@ -440,13 +437,13 @@ header {
     letter-spacing: 2.2px;
 }
 .first-section_text {
-    font-weight: 600;
-    font-size: 22px;
+    font-weight: 400;
+    font-size: 26px;
     line-height: 126.68%;
     color: var(--text_color);
     padding-right: 70px;
     padding-left: 98px;
-    margin: 206px auto 0;
+    margin: 120px auto 0;
     letter-spacing: 0.29px;
 }
 .text-block h2 {
@@ -528,7 +525,7 @@ header {
     height: 5px;
     border-radius: 50%;
     background: var(--text_color);
-    top: 11px;
+    top: 14px;
     left: 0;
 }
 
