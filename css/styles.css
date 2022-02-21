@@ -163,7 +163,7 @@ input[type=number]
     --bg: linear-gradient(180deg, #FFABAB 0%, rgba(255, 172, 172, 0.1) 96.01%);
     --scroll_width: 17px;
     --text_color: #333;
-    --font_size: 22px;
+    --font_size: 26px;
     --font_size_title: 36px;
     --font-family: 'Futura';
 }
@@ -438,7 +438,7 @@ header {
 }
 .first-section_text {
     font-weight: 400;
-    font-size: 26px;
+    font-size: 28px;
     line-height: 126.68%;
     color: var(--text_color);
     padding-right: 70px;
