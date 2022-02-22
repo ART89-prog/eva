@@ -2,7 +2,7 @@
 
     :root
     {
-        --font_size: 21px;
+        --font_size: 22px;
         --font_size_title: 30px;
     }
     header {
@@ -18,7 +18,7 @@
         margin: 75px auto 0;
         padding-right: 0;
         padding-left: 0;
-        font-size: 20px;
+        font-size: 27px;
     }
     .tabs {
         flex-direction: column;

@@ -2,8 +2,8 @@
 
     :root
     {
-        --font_size: 19px;
-        --font_size_title: 25px;
+        --font_size: 22px;
+        --font_size_title: 26px;
     }
     .first-section_title {
         font-size: 36px;
@@ -27,7 +27,7 @@
     .first-section_text {
         margin: 28px auto 0;
         font-weight: 500;
-        font-size: 21px;
+        font-size: 24px;
     }
     .tabs button {
         flex-direction: column;

@@ -2,8 +2,8 @@
 
     :root
     {
-        --font_size: 17px;
-        --font_size_title: 24px;
+        --font_size: 19px;
+        --font_size_title: 25px;
     }
     .header_logo img {
         width: 150px;
@@ -33,7 +33,7 @@
         margin: 75px auto 0;
         padding-right: 0;
         padding-left: 0;
-        font-size: 18px;
+        font-size: 22px;
     }
     .tabs_container {
         padding: 35px 0 35px;
