@@ -85,7 +85,7 @@
     .prev-link, .next-link {
         width: 180px;
         height: 180px;
-        padding: 40px 25px;
+        padding: 40px 16px;
     }
     .next-link span {
         font-size: 15px;

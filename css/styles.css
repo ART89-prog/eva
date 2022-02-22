@@ -350,7 +350,7 @@ button
     align-content: stretch;
     flex-wrap: nowrap;
 }
-.tabs button {
+.tabs a {
     font-size: 25px;
     font-weight: bold;
     line-height: 30px;
@@ -366,11 +366,12 @@ button
     align-items: center;
     align-content: center;
     color: #333;
+    text-decoration: none;
 }
-.tabs button:nth-child(2) {
+.tabs a:nth-child(2) {
     justify-content: start;
 }
-.tabs button .tabs_title {
+.tabs a .tabs_title {
     font-weight: 600;
     font-size: var(--font_size_title);
     line-height: 115.68%;
@@ -379,10 +380,10 @@ button
     margin-left: 33px;
     max-width: 408px;
 }
-.tabs button:nth-child(2) .tabs_title {
+.tabs a:nth-child(2) .tabs_title {
     margin-left: 0;
 }
-.tabs button:hover {
+.tabs a:hover {
     color: #FFFFFF;
     background: #1CCC6E;
 }
@@ -472,7 +473,7 @@ header {
     font-size: 48px;
     line-height: 120%;
     margin-bottom: 36px;
-    margin-top: 77px;
+    margin-top: 40px;
     letter-spacing: 1.3px;
 }
 .text-block h3 {
@@ -634,9 +635,6 @@ footer .index-link {
 }
 .prev-link strong {
     text-align: right;
-}
-.next-link {
-    padding: 79px 54px 79px 67px;
 }
 .next-link span {
     font-family: 'Open Sans';
