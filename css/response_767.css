@@ -73,8 +73,9 @@
         margin-bottom: 18px;
     }
     .text-block .footnote {
-        font-size: 20px;
-        line-height: 23px;
+        font-size: 28px;
+        line-height: 1.2;
+        margin: 35px auto 35px;
     }
     .prev-link strong, 
     .next-link strong, 

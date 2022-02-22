@@ -69,9 +69,7 @@
         width: 250px;
         height: 250px;
     }
-    .prev-link {
-        padding: 73px 41px 73px 67px;
-    }
+ 
     .next-link {
         padding: 73px 27px 73px 41px;
     }
@@ -90,6 +88,9 @@
     }
     .text-block ol li br {
         display: none;
+    }
+    .text-block .footnote {
+        font-size: 34px;
     }
 
 
